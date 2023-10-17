@@ -1,0 +1,19 @@
+package com.google.android.gms.internal.ads;
+
+public final class zzezr
+{
+  public final zzezo zza;
+  public final zzezq zzb;
+  
+  public zzezr(zzezo paramzzezo, zzezq paramzzezq)
+  {
+    this.zza = paramzzezo;
+    this.zzb = paramzzezq;
+  }
+}
+
+
+/* Location:              C:\Users\Ria\Documents\slope apk\dex-tools-v2.4\classes-dex2jar.jar!\com\google\android\gms\internal\ads\zzezr.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

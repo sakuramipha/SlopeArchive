@@ -1,0 +1,15 @@
+package com.google.android.gms.internal.ads;
+
+public abstract class zzggn
+  extends zzfxb
+{
+  public abstract zzggo zza();
+  
+  public abstract zzgmu zzb();
+}
+
+
+/* Location:              C:\Users\Ria\Documents\slope apk\dex-tools-v2.4\classes-dex2jar.jar!\com\google\android\gms\internal\ads\zzggn.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

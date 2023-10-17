@@ -1,0 +1,14 @@
+package com.android.billingclient.api;
+
+public abstract interface BillingClientStateListener
+{
+  public abstract void onBillingServiceDisconnected();
+  
+  public abstract void onBillingSetupFinished(BillingResult paramBillingResult);
+}
+
+
+/* Location:              C:\Users\Ria\Documents\slope apk\dex-tools-v2.4\classes-dex2jar.jar!\com\android\billingclient\api\BillingClientStateListener.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

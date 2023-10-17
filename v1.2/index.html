@@ -1,0 +1,19 @@
+<head>
+	<link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope_v7.json", {onProgress: UnityProgress,Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
+    </script>
+</head>
+<body>
+	<div class="webgl-content">
+		<div id="gameContainer" style="width: 900px; height: 600px; margin: auto"></div>
+		<div class="footer">
+			<div class="webgl-logo"></div>
+			<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+			<div class="title">Slope</div>
+		</div>
+	</div>
+</body>
